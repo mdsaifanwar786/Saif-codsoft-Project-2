@@ -1,0 +1,83 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./image/industries\ photo.jpg);
+    height:100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+.main{
+    max-width: 100%;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+ul li a:hover{
+    background-color:black;
+    color:white;
+    transition: 0.6 ease;
+}
+.active{
+    background-color:black;
+    color:white;
+}
+.logo img{
+  margin-right: 100px;
+ size: 50rem;
+}
+   
+.center-text{
+    margin: 0px;
+    margin-left: 100px;
+    margin-top: 0px;
+
+}
+h1{
+    color:black;
+    margin-right: 80px;
+}
+#bt1{
+    border: 1px solid black;
+    color:black;
+    padding: 2px;
+    text-decoration: none;
+    margin-left: 120px;
+}
+#bt2{
+    border: 1px solid black;
+    color:black;
+    padding: 2px;
+    text-decoration: none;
+    margin-left: 120px;
+}
+#bt1:hover{
+    background-color:black;
+    color:white;
+    transition: 0.6 ease;
+}
+#bt2:hover{
+    background-color:black;
+    color:white;
+    transition: 0.6 ease;
+}
